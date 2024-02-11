@@ -33,7 +33,7 @@
 
 ## Установка приложения 
 
-Для установки мобильного приложения приложения перейдите по ссылке для скачивания [APK файла](https://github.com/Vshagina/Auto_Accounting/blob/master/apk/Auto_Accounting.apk)
+Для установки мобильного приложения приложения перейдите по ссылке для скачивания [APK файла]([https://github.com/Vshagina/Auto_Accounting/blob/master/apk/Auto_Accounting.apk](https://github.com/Chekesh/ProductionPractice/blob/master/%D0%A3%D0%B4%D0%B0%D1%80%20%D1%82%D0%B8%D0%B3%D1%80%D0%B0.apk))
 
 Или же вы можете его найти в папке репозитория: 
 
