@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<header th:insert="bloks/header :: header"></header>
+<main>
+    <section class=" text-center container">
+        <div class="row py-lg-2">
+            <div class="col-lg-6 mx-auto">
+                <h1 class="fw-lig  ht">Школа Единоборств</h1>
+                <p class="lead text-body-secondary">Приветствуем вас! Вы на главной странице сайта школы единоборства. Тут вы можете посмотреть информацию о видах единоборств, которые преподаются в нашей школе. А также подать заявку!</p>
+                <p>
+                    <a href="/reg" class="btn btn-primary my-2">Подать заявку</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Бокс</title>
+                            <image href="https://vjoy.cc/wp-content/uploads/2020/07/tajskij_boks.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                            <text x="46%" y="55%" fill="#030000" >Бокс</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Бокс представляет собой увлекательный вид спорта, где два участника соревнуются в ринге. Эта дисциплина требует физической выносливости и тактического мышления. Зрелищность поединков и стремление к победе делают бокс увлекательным для наблюдения.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="/box" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</a>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Каратэ</title>
+                            <image href="https://niioz.ru/upload/iblock/f6f/f6f7efdca581c344e41d98171201a4e9.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+                            <text x="30%" y="45%" fill="#eceeef" dy=".3em">Каратэ</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Каратэ – захватывающий вид единоборства, где участники проявляют свое мастерство в ритмичных движениях и технике. Эта дисциплина требует не только физической готовности, но и гармонии между телом и разумом. За счет этого каждый элемент каратэ будет уникальным в исполнении.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button href="/Karate" type="button" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</button>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Самбо</title>
+                            <image href="https://i0.wp.com/svs-gru.ru/wp-content/uploads/2023/11/1667484692_3-sportishka-com-p-sambo-oboi-instagram-3.jpg?fit=1500%2C1061&ssl=1" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+                            <text x="46%" y="19%" fill="#030000" dy=".3em">Самбо</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Самбо представляет собой захватывающий вид борьбы, где участники демонстрируют свои умения в технике и стратегии. В этой дисциплине важны не только физическая сила, но и умение тактически преодолевать соперников. Искусство мастерства и контроля в самбо делает его увлекательным.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button href="/Sambo" type="button" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</button>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Кикбоксинг</title>
+                            <image href="https://samboxing.ru/assets/uploads/stati/kik3.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+                            <text x="75%" y="85%" fill="#eceeef" dy=".3em">Кикбоксинг</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Кикбоксинг – динамичное единоборство, где участники демонстрируют свою выносливость и технику. Этот вид спорта требует не только силы, но и умения эффективно использовать разнообразные приемы. Каждый удар в кикбоксинге подчеркивает интенсивность поединка, привлекая тех, кто стремится к совершенствованию своих навыков.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button href="/Kickboxing" type="button" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</button>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Тхэквондо</title>
+                            <image href="https://media.istockphoto.com/id/158006093/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%B0%D1%80%D0%B0%D1%82%D0%B5-%D1%82%D1%85%D1%8D%D0%BA%D0%B2%D0%BE%D0%BD%D0%B4%D0%BE-%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BF%D0%B0%D1%80%D0%B0.jpg?s=612x612&w=0&k=20&c=lcectwPku6CXbOTV6Rful6jqBQTAbm_2fc22oVb_V6I=" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+                            <text x="43%" y="50%" fill="#030000" dy=".3em">Тхэквондо</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Тхэквондо – это боевое искусство, в котором участники демонстрируют высокую технику ударов ногами и руками. Комбинация элегантности и эффективности в тхэквондо делает его захватывающим видом спорта. Сочетая грацию и мощь, тхэквондо привлекает людей стремящихся к совершенствованию ударной самозащиты.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button href="/Judo" type="button" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</button>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Вольная борьба</title>
+                            <image href="https://sportishka.com/uploads/posts/2021-11/thumbs/1637884589_64-sportishka-com-p-progib-borba-krasivie-sportivnie-foto-66.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+                            <text x="60%" y="50%" fill="#eceeef" dy=".3em">Вольная борьба</text>
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Вольная борьба – это динамичный вид спорта, где участники соперничают в борьбе на мате, используя технику и силу. Эта дисциплина требует от спортсменов гибкости, выносливости и стратегического мышления. Каждое поединок в вольной борьбе – это интенсивное сражение за победу, привлекающее поклонников борьбы.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button href="/Judo" type="button" class="btn btn-sm btn-outline-secondary">Смотреть подробнее</button>
+                                <small class="text-body-secondary">9 Минут</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer th:insert="bloks/footer :: footer"></footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<header th:insert="bloks/header :: header"></header>
+<div>
+</div>
+
+<div class="px-5">
+    <div class="text-center">
+        <h2>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;" th:text="${title1}"></font></font></h2>
+        <p class="lead">
+            <font style="vertical-align: inherit;" th:text="${lable1}">Бокс является одним из олимпийских видов спорта с
+                самой давней
+                историей.
+                Соревнования по этому виду единоборств, который тогда представлял собой обычные кулачные бои, входили
+                еще в
+                программу античных Олимпийских игр в Древней Греции. Первые официально прописанные правила боксерских
+                поединков как вида спорта появились в 1867 году в Англии, и их разработка связана с деятельностью
+                маркиза
+                Куинсберри, по имени которого они и были названы. Уже тогда было определено, что поединки состоят из
+                раундов
+                продолжительностью по три минуты, каждый боксер выходит на них из своего угла квадратного ринга, были
+                сформулированы правила нокдаунов и нокаутов, а также запрет на удары соперника ногой и в область ниже
+                пояса.</font></p>
+        <h2>
+            <font style="vertical-align: inherit;"> Наши тренера</font></h2>
+    </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7 text-center container my-5">
+        <div class="col-md-7 text-center container">
+            <h2 class="featurette-heading fw-normal lh-1">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;" th:text="${trenName}">КАРАКАШ ДМИТРИЙ ГРИГОРЬЕВИЧ</font>
+                </font>
+            </h2>
+            <p class="lead">
+                <font style="vertical-align: inherit;" th:text="${trenBio}">
+                    Мастер спорта России, Заслуженный тренер России.
+                    Тренерский стаж: с 2000 года.
+                    Боксом начал заниматься с 14 лет. В 1993 г., после переезда в
+                    Москву, выступал за ЦСКА и тренировался под руководством Дугарова А.Д.
+                    В 1995 году выполнил норматив мастера спорта России.
+                    Финалист Чемпионата г. Москвы, победитель и призер ряда
+                    Всероссийских турниров. Имеет высшее профессиональное образование по специальности «физическая
+                    культура и спорт» (РГУФКСиТ, 2007).</font>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-5 text-center container">
+        <img th:src="@{${trenPhoto}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Каракаш Дмитрий Григориевич</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            <image width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+                <img th:src="@{${imageUrl}}"/>
+            </image>href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2A1Pm6QWe-RimKYIKwGPAKC9X5wIhTxkBe3NyWfR1UbzHuwwJ"
+                   width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+        </svg>-->
+    </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7 text-center container my-5 order-md-2">
+        <div class="col-md-7 text-center container">
+            <h2 class="featurette-heading fw-normal lh-1">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;" th:text="${tren2Name}">КАРАКАШ ДМИТРИЙ ГРИГОРЬЕВИЧ</font>
+                </font><span class="text-body-secondary">
+        </span>
+            </h2>
+            <p class="lead">
+                <font style="vertical-align: inherit;" th:text="${tren2Bio}">
+                    Мастер спорта России, Заслуженный тренер России.
+                    Тренерский стаж: с 2000 года.
+                    Боксом начал заниматься с 14 лет. В 1993 г., после переезда в
+                    Москву, выступал за ЦСКА и тренировался под руководством Дугарова А.Д.
+                    В 1995 году выполнил норматив мастера спорта России.
+                    Финалист Чемпионата г. Москвы, победитель и призер ряда
+                    Всероссийских турниров. Имеет высшее профессиональное образование по специальности «физическая
+                    культура и спорт» (РГУФКСиТ, 2007).</font>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-5 order-md-1 text-center container">
+        <img th:src="@{${tren2Photo}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Каракаш Дмитрий Григориевич</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            <image href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2A1Pm6QWe-RimKYIKwGPAKC9X5wIhTxkBe3NyWfR1UbzHuwwJ"
+                   width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+        </svg>-->
+    </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7 text-center container my-5">
+        <div class="col-md-7 text-center container">
+            <h2 class="featurette-heading fw-normal lh-1">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;" th:text="${trenName}">КАРАКАШ ДМИТРИЙ ГРИГОРЬЕВИЧ</font>
+                </font>
+            </h2>
+            <p class="lead">
+                <font style="vertical-align: inherit;" th:text="${trenBio}">
+                    Мастер спорта России, Заслуженный тренер России.
+                    Тренерский стаж: с 2000 года.
+                    Боксом начал заниматься с 14 лет. В 1993 г., после переезда в
+                    Москву, выступал за ЦСКА и тренировался под руководством Дугарова А.Д.
+                    В 1995 году выполнил норматив мастера спорта России.
+                    Финалист Чемпионата г. Москвы, победитель и призер ряда
+                    Всероссийских турниров. Имеет высшее профессиональное образование по специальности «физическая
+                    культура и спорт» (РГУФКСиТ, 2007).</font>
+            </p>
+        </div>
+    </div>
+    <div class="col-md-5 text-center container">
+        <img th:src="@{${trenPhoto}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+             height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Заполнитель: 500&nbsp;x&nbsp;500."
+             preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Каракаш Дмитрий Григориевич</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+            <image width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+                <img th:src="@{${imageUrl}}"/>
+            </image>href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2A1Pm6QWe-RimKYIKwGPAKC9X5wIhTxkBe3NyWfR1UbzHuwwJ"
+                   width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>
+        </svg>-->
+    </div>
+</div>
+<footer th:insert="bloks/footer :: footer"></footer>
+</body>
+</html>
