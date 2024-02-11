@@ -37,11 +37,10 @@
 
 Или же вы можете его найти в папке репозитория: 
 
-![APK](https://github.com/Vshagina/Auto_Accounting/blob/master/animation/images/apk.jpg "APK")
+![APK](https://github.com/Chekesh/ProductionPractice/blob/master/Fotochki%20%3A0/photo_5352602198527302489_y.jpg)
 
-После скачивания, установите его 
+После скачивания, установите его.
 
-![APK](https://github.com/Vshagina/Auto_Accounting/blob/master/animation/images/apk_1.jpg "APK")
 
 Приложение установлено! :white_check_mark: Приятного использования!
 
@@ -52,3 +51,10 @@
 - [Руководство пользователя](https://github.com/Vshagina/Auto_Accounting/wiki/5.-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)
   
 Документация разработки:
+- [Техническое задание](https://github.com/Vshagina/Auto_Accounting/wiki/1.-%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)
+- [Требования](https://github.com/Vshagina/Auto_Accounting/wiki/2.-%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+- [Спецификация](https://github.com/Vshagina/Auto_Accounting/wiki/3.-%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+- [Прецеденты](https://github.com/Vshagina/Auto_Accounting/wiki/4.-%D0%9F%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%8B)
+- [Диаграммы](https://github.com/Vshagina/Auto_Accounting/wiki/6.-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B)
+- [Тестирование](https://github.com/Vshagina/Auto_Accounting/wiki/7.-%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+
