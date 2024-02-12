@@ -32,7 +32,21 @@
 Разработчиком приложения является Чекцшин Никикита, студентк группы 21ИТ17 (ИТ - колледжа) 
 
 ## Установка приложения 
+### Сайт
+На сайт вы сможете всегда зайти и просмотреть находясь в одной сети с хостом, в ином случае вам потребуеется скачать и запустить приложение выполняющее функцию хоста.
 
+Для скачивани приложения вам требуется перейдите по ссылке, нажмите на зеленую кнопку Code и выберете Download ZIP.
+
+![](https://github.com/Chekesh/ProductionPractice/blob/master/Fotochki%20%3A0/photo_5352602198527302494_y.jpg)
+
+После установки, распакуйте проект в любое удобное вам место, затем запустите файл Website/SpringObuch в среде разработки Intellij Idea
+
+
+Для запуска необходимо нажать на зелёную кнопку Пуск
+
+![](https://github.com/Chekesh/ProductionPractice/blob/master/Fotochki%20%3A0/photo_5352602198527302498_m.jpg)
+
+### Мобильное приложение
 Для установки мобильного приложения приложения перейдите по ссылке для скачивания [APK файла](https://github.com/Chekesh/ProductionPractice/blob/master/%D0%A3%D0%B4%D0%B0%D1%80%20%D1%82%D0%B8%D0%B3%D1%80%D0%B0.apk)
 
 Или же вы можете его найти в папке репозитория: 
@@ -48,13 +62,18 @@
 
 Пользовательская документация:
 
-- [Руководство пользователя](https://github.com/Vshagina/Auto_Accounting/wiki/5.-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)
+- [Руководство пользователя](https://github.com/Chekesh/ProductionPractice/wiki/%235-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)
   
 Документация разработки:
-- [Техническое задание](https://github.com/Vshagina/Auto_Accounting/wiki/1.-%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)
-- [Требования](https://github.com/Vshagina/Auto_Accounting/wiki/2.-%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
-- [Спецификация](https://github.com/Vshagina/Auto_Accounting/wiki/3.-%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
-- [Прецеденты](https://github.com/Vshagina/Auto_Accounting/wiki/4.-%D0%9F%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%8B)
-- [Диаграммы](https://github.com/Vshagina/Auto_Accounting/wiki/6.-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B)
-- [Тестирование](https://github.com/Vshagina/Auto_Accounting/wiki/7.-%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+- [Техническое задание](https://github.com/Chekesh/ProductionPractice/wiki/%231-%D0%A2%D0%97)
+- [Требования](https://github.com/Chekesh/ProductionPractice/wiki/%232-%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+- [Спецификация](https://github.com/Chekesh/ProductionPractice/wiki/%233-%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)
+- [Прецеденты](https://github.com/Chekesh/ProductionPractice/wiki/%234-%D0%9F%D1%80%D0%B5%D1%86%D0%B5%D0%B4%D0%B5%D0%BD%D1%82%D1%8B)
+- [Диаграмма вариантов использования для мобильного приложения](https://github.com/Chekesh/ProductionPractice/wiki/%236-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F)
+- [Диаграмма вариантов использования для сайта](https://github.com/Chekesh/ProductionPractice/wiki/%237-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0)
+- [Диаграмма классов использования для мобильного приложения](https://github.com/Chekesh/ProductionPractice/wiki/%238-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F)
+- [Диаграмма классов использования для сайта](https://github.com/Chekesh/ProductionPractice/wiki/%239-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0)
+- [Диаграмма компонентов для мобильного приложения](https://github.com/Chekesh/ProductionPractice/wiki/10-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F)
+- [Диаграмма компонентов для сайта](https://github.com/Chekesh/ProductionPractice/wiki/11-%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0)
+- [Тестирование](https://github.com/Chekesh/ProductionPractice/wiki/12-%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 
